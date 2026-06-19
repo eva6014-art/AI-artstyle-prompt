@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 畫風轉換提示詞引擎</title>
     
+    <!-- 引入 Babel (用來在瀏覽器中編譯 JSX，放最前面避免與 Tailwind CDN 衝突) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- 引入 React 與 ReactDOM -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    
-    <!-- 引入 Babel (用來在瀏覽器中編譯 JSX) -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
     <div id="root"></div>
